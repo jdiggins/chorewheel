@@ -17,7 +17,7 @@ numbers = {
 for name, number in numbers.items():
     message = client.messages \
             .create(
-                    body="Hi " + name + " \U0001F601 Just your friendly reminder that it is (probably) trash day!",
+                    body="Hi " + name + " \U0001F920 This is your friendly reminder that today is trash day!",
                     from_='+16178127055',
                     to=number
                     )
